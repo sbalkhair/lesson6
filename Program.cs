@@ -49,25 +49,47 @@ namespace lesson6
             //Console.WriteLine($"sum is :{sum}");
             //Console.ReadKey();
 
-            var sum = 0;
+            //var sum = 0;
 
-            while (true)
-            {
-                Console.WriteLine("Enter number or = to get sum");
-                var input = Console.ReadLine();
+            //while (true)
+            //{
+            //    Console.WriteLine("Enter number or = to get sum");
+            //    var input = Console.ReadLine();
 
-                if (input == "=")
-                {
-                    break;
-                }
-                else
-                {
-                    sum += Convert.ToInt32(input);
-                }
-            }
+            //    if (input == "=")
+            //    {
+            //        break;
+            //    }
+            //    else
+            //    {
+            //        sum += Convert.ToInt32(input);
+            //    }
+            //}
 
-            Console.WriteLine($"sum:{sum}");
-            Console.ReadKey();
+            //Console.WriteLine($"sum:{sum}");
+            //Console.ReadKey();
+
+            //var counter = 0;
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    if (i % 3 == 0)
+            //    {
+            //        counter++;
+            //    }
+            //}
+
+            //Console.WriteLine($"result:{ counter}");
+            //Console.ReadKey();
+
+            //var number = 5;
+            //int[] result = new int[1] { 1 };
+            //for (int i = number; i >= 1; i--)
+            //{
+            //    result[0] = result[0] * i;
+            //}
+
+            //Console.WriteLine($"result:{result[0]}");
+            //Console.ReadKey();
 
 
         }
